@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Fri Mar  5 16:22:19 2021
+# Process ID: 45980
+# Current directory: C:/Users/qqq/Desktop/CDE/soc_axi_func/run_vivado/mycpu_prj1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13712 C:\Users\qqq\Desktop\CDE\soc_axi_func\run_vivado\mycpu_prj1\mycpu.xpr
+# Log file: C:/Users/qqq/Desktop/CDE/soc_axi_func/run_vivado/mycpu_prj1/vivado.log
+# Journal file: C:/Users/qqq/Desktop/CDE/soc_axi_func/run_vivado/mycpu_prj1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/Users/qqq/Desktop/CDE/soc_axi_func/run_vivado/mycpu_prj1/mycpu.xpr
+CRITICAL WARNING: [Project 1-19] Could not find the file 'C:/Users/qqq/Desktop/CDE/soft/func/obj/inst_ram.coe'.
+Scanning sources...
+Finished scanning sources
+WARNING: [Project 1-509] GeneratedRun file for 'synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'axi_crossbar_1x2_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'clk_pll_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'axi_ram_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'axi_clock_converter_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'InternalCrossbar_synth_1' not found
+WARNING: [Project 1-509] GeneratedRun file for 'impl_1' not found
+WARNING: [filemgmt 56-3] IPUserFilesDir: Could not find the directory 'C:/Users/qqq/Desktop/CDE/soc_axi_func/run_vivado/mycpu_prj1/mycpu.ip_user_files'.
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
+open_project: Time (s): cpu = 00:00:25 ; elapsed = 00:00:21 . Memory (MB): peak = 790.719 ; gain = 187.387
+update_compile_order -fileset sources_1
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Mar  5 16:23:45 2021...
