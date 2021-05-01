@@ -36,11 +36,6 @@ Implementation of TinyMIPS processor for USTB computer composition principle cou
 | MULTU rs, rt    | HI,LO=rs*rt         |
 | DIV rs, rt    | HI=rs%rt; LO=rs/rt        |
 | DIVU rs,rt    | HI=rs%rt; LO=rs/rt       |
-| **Multiply** |
-| MULT rs, rt    | HI,LO=rs*rt        |
-| MULTU rs, rt    | HI,LO=rs*rt         |
-| DIV rs, rt    | HI=rs%rt; LO=rs/rt        |
-| DIVU rs,rt    | HI=rs%rt; LO=rs/rt       |
 | MFHI rd    | rd=HI       |
 | MFLO rd    | rd=LO         |
 | MTHI rs    | HI=rs       |
