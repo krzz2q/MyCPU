@@ -9,11 +9,11 @@ Implementation of TinyMIPS processor for USTB computer composition principle cou
 | Opcode  | Action |
 | ------- | ----------- |
 | **Arithmetic Logic Unit** |
-| ADDU    | rd=rs+rt    |
-| ADDIU   | rt=rs+imm        |
-| SUBU    | rd=rs-rt        |
-| SLT     | rt=rs<imm         |
-| SLTU    | rd=rs<rt         |
+| ADDU rd,rs,rt  | rd=rs+rt    |
+| ADDIU rt,rs  | rt=rs+imm        |
+| SUBU rd,rs,rt  | rd=rs-rt        |
+| SLT rt,rs,imm    | rt=rs<imm         |
+| SLTU rd,rs,rt   | rd=rs<rt         |
 | SLTI rt,rs,imm    | rt=rs<imm    |
 | SLTIU rt,rs,imm   | rt=rs<imm    |
 | AND     | rd=rs&rt         |
